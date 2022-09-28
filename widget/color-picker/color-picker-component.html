@@ -1,0 +1,39 @@
+<div>
+  <label class="c8y-radio radio-inline" title="RGBA">
+    <input type="radio" checked="checked" value="rgba" name="c8y-group-color" (change) ="changeType($event)">
+    <span></span><span>RGBA</span>
+  </label>
+  <label class="c8y-radio radio-inline" title="HEXA">
+    <input type="radio" checked="checked" value="hexa" name="c8y-group-color" (change) ="changeType($event)">
+    <span></span><span>HEXA</span>
+  </label>
+</div>
+<div class="color-wrapper">
+
+    <app-color-palette [hue]="hue" (color)="color = $event" ></app-color-palette> 
+    <app-color-slider
+      (color)="hue=$event"
+      style="margin-left:16px"
+    ></app-color-slider>
+    <div class = "colorPickerFooter">
+      <button class="btn btn-default" style="margin-bottom: 5px;" (click)="closeColorPicker.emit(true)">
+        Cancel
+      </button>
+      <br>
+      <button class="btn btn-primary" (click) = "applyColorClicked()">
+        Apply
+      </button>
+    </div>
+  </div>
+  <!-- <div class="input-wrapper">
+    <span class="text">{{color}}</span>
+    <div
+      class="color-div"
+      [ngStyle]="{'background-color': color || 'white'}"
+    ></div>
+  </div> -->
+  
+  
+
+
+  
