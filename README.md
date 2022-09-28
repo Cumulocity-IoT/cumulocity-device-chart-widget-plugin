@@ -1,0 +1,1 @@
+# cumulocity-device-chart-widget-plugin
