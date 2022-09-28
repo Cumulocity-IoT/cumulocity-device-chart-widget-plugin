@@ -1,9 +1,9 @@
 {
   "name": "cumulocity-device-chart-widget-plugin",
-  "version": "1.0.0",
-  "description": "This is the Cumulocity module federation plugin. Plugins can be developed like any Cumulocity application, but can be used at runtime by other applications. Therefore, they export an Angular module which can then be imported by any other application. The exports are defined in `package.json`:",
+  "version": "1.0.0-beta",
+  "description": "This is the Cumulocity module federation plugin. This displays the chart based on the device specific inventory data.",
   "scripts": {
-    "start": "c8ycli server --env.beta=true -u https://appbuilder.eu-latest.cumulocity.com/",
+    "start": "c8ycli server --env.beta=true",
     "build": "c8ycli build --env.mode=production",
     "deploy": "c8ycli deploy",
     "postinstall": "ngcc",
@@ -11,8 +11,8 @@
     "postbuild": " gulp bundle"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Sheethal J R- Software AG, Global Presales",
+  "license": "Apache-2.0",
   "dependencies": {
     "@angular/animations": "12.2.14",
     "@angular/cdk": "12.2.13",
