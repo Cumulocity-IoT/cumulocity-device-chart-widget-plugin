@@ -41,7 +41,7 @@ Bubble Chart (Data set not ideal for this chart)
 *  **Fetch Inner child Devices:** Fetches Inventory data for chid devices only if Fetch innerchild devices is checked in configuration.
 *  **Support multiple charts:** Based on chart type in configuration.
 
-## Prerequisites:
+## Prerequisite
    Cumulocity c8ycli >=1014.x.x
    
 ## Installation
