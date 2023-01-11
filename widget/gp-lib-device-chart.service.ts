@@ -21,9 +21,9 @@ import { Injectable } from '@angular/core';
 import { IManagedObject, InventoryService } from '@c8y/client';
 import { get, has } from 'lodash-es';
 
- @Injectable({
+@Injectable({
   providedIn: 'root'
- })
+})
 export class GpLibDeviceChartService {
   constructor(public inventory: InventoryService) { }
 
@@ -90,9 +90,9 @@ export class GpLibDeviceChartService {
         } else {
           dataSet['Not Available'] = dataSet['Not Available'] + 1 || 1;
         }
-        
+
       }
-     
+
     }
     if (typeof recordValue === 'object') {
       Object.keys(recordValue).map((key) => {

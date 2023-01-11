@@ -40,22 +40,22 @@ import { ColorPaletteComponent } from './color-picker/color-palette/color-palett
       provide: HOOK_COMPONENTS,
       multi: true,
       useValue: {
-          id: 'device-chart.widget',
-          label: 'Device Chart Widget Plugin',
-          description: 'Current Firmware Charts',
-          previewImage: preview.previewImage,
-          component: GpLibDeviceChartComponent,
-          configComponent: GpDeviceChartWidgetConfig,
-          data: {
-              ng1: {
-                  options: {
-                  noDeviceTarget: false,
-                  noNewWidgets: false,
-                  deviceTargetNotRequired: false,
-                  groupsSelectable: true
-                  }
-              }
+        id: 'device-chart.widget',
+        label: 'Device Chart Widget Plugin',
+        description: 'Current Firmware Charts',
+        previewImage: preview.previewImage,
+        component: GpLibDeviceChartComponent,
+        configComponent: GpDeviceChartWidgetConfig,
+        data: {
+          ng1: {
+            options: {
+              noDeviceTarget: false,
+              noNewWidgets: false,
+              deviceTargetNotRequired: false,
+              groupsSelectable: true
+            }
           }
+        }
       }
     }
   ]

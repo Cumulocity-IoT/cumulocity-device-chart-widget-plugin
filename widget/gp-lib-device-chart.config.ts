@@ -26,9 +26,9 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 // tslint:disable-next-line: component-class-suffix
 export class GpDeviceChartWidgetConfig implements OnInit {
-    @Input() config: any = {};
-    isOpenCP = false;
-    borderCP = false;
+  @Input() config: any = {};
+  isOpenCP = false;
+  borderCP = false;
   constructor() { }
 
   ngOnInit() {
@@ -41,13 +41,13 @@ export class GpDeviceChartWidgetConfig implements OnInit {
 
   }
 
-/** Opens the color picker if it is not already open */
+  /** Opens the color picker if it is not already open */
   openColorPicker() {
     if (!this.isOpenCP) {
       this.isOpenCP = true;
     }
   }
-/** Opens the border color picker on click of input field  */
+  /** Opens the border color picker on click of input field  */
   openBorderColorPicker() {
     if (!this.borderCP) {
       this.borderCP = true;
@@ -59,7 +59,7 @@ export class GpDeviceChartWidgetConfig implements OnInit {
       this.isOpenCP = false;
     }
   }
-   /** Closes the border color picker on click of cancel  */
+  /** Closes the border color picker on click of cancel  */
   closeBorderColorPicker() {
     if (this.borderCP) {
       this.borderCP = false;
@@ -73,7 +73,7 @@ export class GpDeviceChartWidgetConfig implements OnInit {
       this.config.color = value;
     }
   }
-   /** on click of save button it adds the selected border color to semi colon separated string */
+  /** on click of save button it adds the selected border color to semi colon separated string */
   setSelectedBorderColor(value) {
     if (this.config.borderColor) {
       this.config.borderColor = this.config.borderColor + ';' + value;

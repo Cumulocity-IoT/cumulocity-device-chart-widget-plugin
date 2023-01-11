@@ -27,7 +27,7 @@ import {
 } from '@angular/core';
 
 @Component({
-   // tslint:disable-next-line: component-selector
+  // tslint:disable-next-line: component-selector
   selector: 'app-color-slider',
   templateUrl: './color-slider-component.html',
 })

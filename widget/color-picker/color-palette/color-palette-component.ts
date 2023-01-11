@@ -28,7 +28,7 @@ import {
   HostListener,
 } from '@angular/core';
 @Component({
-    // tslint:disable-next-line: component-selector
+  // tslint:disable-next-line: component-selector
   selector: 'app-color-palette',
   templateUrl: './color-palette-component.html',
   styleUrls: ['./color-palette-component.css'],

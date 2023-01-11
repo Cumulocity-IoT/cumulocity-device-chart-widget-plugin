@@ -34,7 +34,7 @@ export class ColorPickerComponent {
   public hue: string;
   public color: string;
   public colorType: any;
-  constructor(private eRef: ElementRef) {}
+  constructor(private eRef: ElementRef) { }
   applyColorClicked() {
     if (this.color !== undefined) {
       if (this.colorType === 'hexa') {
