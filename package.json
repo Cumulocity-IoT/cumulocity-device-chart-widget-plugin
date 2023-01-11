@@ -1,17 +1,17 @@
 {
   "name": "cumulocity-device-chart-widget-plugin",
   "version": "1.0.1-beta",
-  "description": "This is the Cumulocity module federation plugin. This displays the chart based on the device specific inventory data.",
+  "description": "Cumulocity Device Chart Widget displays the chart based on the device specific inventory data.",
   "scripts": {
     "start": "c8ycli server --env.beta=true",
-    "build": "c8ycli build",
+    "build": "c8ycli build --env.mode=production",
     "deploy": "c8ycli deploy",
     "postinstall": "ngcc",
     "prebuild": " gulp clean",
     "postbuild": " gulp bundle"
   },
   "keywords": [],
-  "author": "Sheethal J R- Software AG, Global Presales",
+  "author": "Software AG, Global Presales",
   "license": "Apache-2.0",
   "dependencies": {
     "@angular/animations": "14.0.6",
@@ -32,7 +32,7 @@
     "@c8y/style": "1016.0.40",
     "chart.js": "2.9.3",
     "ng2-charts": "2.4.2",
-    "ngx-bootstrap": "6.2.0"
+    "ngx-bootstrap": "9.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "14.0.6",
@@ -54,10 +54,11 @@
   },
   "c8y": {
     "application": {
-      "name": "Device Chart Runtime Widget",
+      "name": "Cumulocity Device Chart Widget Plugin",
+      "description": "Cumulocity Device Chart Widget displays the chart based on the device specific inventory data.",
       "contextPath": "device-chart-runtime-widget",
       "key": "device-chart-runtime-widget-application-key",
-      "globalTitle": "Cumulocity Device Chart Widget with Module Federation",
+      "globalTitle": "Cumulocity Device Chart Widget displays the chart based on the device specific inventory data.",
       "tabsHorizontal": true,
       "isPackage": true,
       "noAppSwitcher": true,
@@ -71,7 +72,7 @@
           "name": "Cumulocity Device Chart Widget Plugin",
           "module": "GpLibDeviceChartModule",
           "path": "./widget/gp-lib-device-chart.module.ts",
-          "description": "This widget displays the chart based on the device specific inventory data."
+          "description": "Cumulocity Device Chart Widget displays the chart based on the device specific inventory data."
         }
       ],
       "remotes": {
