@@ -1,16 +1,20 @@
 {
   "name": "cumulocity-device-chart-widget-plugin",
-  "version": "1.0.1-beta",
-  "description": "Cumulocity Device Chart Widget displays the chart based on the device specific inventory data.",
+  "version": "1.0.1",
+  "description": "The Device Chart Widget displays the chart based on the device specific inventory data.",
   "scripts": {
-    "start": "c8ycli server --env.beta=true",
+    "start": "c8ycli server",
     "build": "c8ycli build --env.mode=production",
     "deploy": "c8ycli deploy",
     "postinstall": "ngcc",
     "prebuild": " gulp clean",
     "postbuild": " gulp bundle"
   },
-  "keywords": [],
+  "keywords": [
+    "Cumulocity",
+    "Plugin",
+    "Widget"
+  ],
   "author": "Software AG, Global Presales",
   "license": "Apache-2.0",
   "dependencies": {
@@ -54,11 +58,11 @@
   },
   "c8y": {
     "application": {
-      "name": "Cumulocity Device Chart Widget Plugin",
-      "description": "Cumulocity Device Chart Widget displays the chart based on the device specific inventory data.",
-      "contextPath": "device-chart-runtime-widget",
-      "key": "device-chart-runtime-widget-application-key",
-      "globalTitle": "Cumulocity Device Chart Widget displays the chart based on the device specific inventory data.",
+      "name": "Device Chart Widget",
+      "description": "The Device Chart Widget displays the chart based on the device specific inventory data.",
+      "contextPath": "sag-ps-device-chart",
+      "key": "sag-ps-device-chart-application-key",
+      "globalTitle": "The Device Chart Widget displays the chart based on the device specific inventory data.",
       "tabsHorizontal": true,
       "isPackage": true,
       "noAppSwitcher": true,
@@ -69,10 +73,10 @@
       },
       "exports": [
         {
-          "name": "Cumulocity Device Chart Widget Plugin",
+          "name": "Device Chart Widget",
           "module": "GpLibDeviceChartModule",
           "path": "./widget/gp-lib-device-chart.module.ts",
-          "description": "Cumulocity Device Chart Widget displays the chart based on the device specific inventory data."
+          "description": "The Device Chart Widget displays the chart based on the device specific inventory data."
         }
       ],
       "remotes": {

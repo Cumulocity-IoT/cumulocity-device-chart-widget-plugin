@@ -41,8 +41,8 @@ import { ColorPaletteComponent } from './color-picker/color-palette/color-palett
       multi: true,
       useValue: {
         id: 'device-chart.widget',
-        label: 'Device Chart Widget Plugin',
-        description: 'Current Firmware Charts',
+        label: 'Device Chart',
+        description: 'The Device Chart Widget displays the chart based on the device specific inventory data.',
         previewImage: preview.previewImage,
         component: GpLibDeviceChartComponent,
         configComponent: GpDeviceChartWidgetConfig,
