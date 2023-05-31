@@ -28,7 +28,7 @@ Bubble Chart (Data set not ideal for this chart)
 | 2.0.x              | >= 1016.x.x| 1.x.x                       |
 
 
-![DeviceChart](https://user-images.githubusercontent.com/67993842/91125981-99ffaa00-e6c0-11ea-80b5-32269311642f.PNG)
+![DeviceChart](Images/DeviceChart.png)
 
 ## Features
 
