@@ -4,7 +4,7 @@
   "description": "The Device Chart Widget displays the chart based on the device specific inventory data.",
   "scripts": {
     "start": "c8ycli server",
-    "build": "c8ycli build",
+    "build": "c8ycli build --env.mode=production",
     "deploy": "c8ycli deploy",
     "postinstall": "ngcc",
     "prebuild": " gulp clean",
@@ -83,17 +83,7 @@
         "widget-plugin": [
           "GpLibDeviceChartModule"
         ]
-      },
-      "copy": [
-        {
-          "from": "Images/DeviceChart.png",
-          "to": "Images/DeviceChart.png"
-        },
-        {
-          "from": "LICENSE",
-          "to": "LICENSE.txt"
-        }
-      ]
+      }
     },
     "cli": {}
   },
