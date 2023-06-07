@@ -1,6 +1,6 @@
 {
   "name": "cumulocity-device-chart-widget-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The Device Chart Widget displays the chart based on the device specific inventory data.",
   "scripts": {
     "start": "c8ycli server",
@@ -86,8 +86,8 @@
       },
       "copy": [
         {
-          "from": "Images/DeviceChart.png",
-          "to": "Images/DeviceChart.png"
+          "from": "images/DeviceChart.png",
+          "to": "images/DeviceChart.png"
         },
         {
           "from": "LICENSE",
