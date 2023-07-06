@@ -86,8 +86,8 @@
       },
       "copy": [
         {
-          "from": "images/DeviceChart.png",
-          "to": "images/DeviceChart.png"
+          "from": "images/device-chart.png",
+          "to": "images/device-chart.png"
         },
         {
           "from": "LICENSE",
