@@ -1,4 +1,4 @@
-# Cumulocity Device Chart Widget Plugin [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-device-chart-widget-plugin/releases/download/1.0.3/sag-ps-pkg-device-chart-1.0.3.zip)
+# Cumulocity Device Chart Widget Plugin [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-device-chart-widget-plugin/releases/download/1.0.2/sag-ps-pkg-device-chart-1.0.2.zip)
 
 This Device Chart Widget is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. It displays the chart based on the device-specific inventory data.
 By Default the chart displays the count based on the input in the group by field of configuration. But if the input is provided in the value field of the widget configuration it gives the value sum of the provided field from device managed object.
@@ -45,7 +45,7 @@ Bubble Chart (Data set not ideal for this chart)
 
 ### Runtime Widget Deployment?
 
-* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-device-chart-widget-plugin/releases/download/1.0.3/sag-ps-pkg-device-chart-1.0.3.zip) and install via Administrations --> Ecosystems --> Applications --> Packages 
+* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-device-chart-widget-plugin/releases/download/1.0.2/sag-ps-pkg-device-chart-1.0.2.zip) and install via Administrations --> Ecosystems --> Applications --> Packages 
 
 ## QuickStart
 
