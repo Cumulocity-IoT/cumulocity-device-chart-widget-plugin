@@ -5,7 +5,7 @@ Use it at your own risk.
 
 The repository is archived but feel free to fork & adapt it to your needs in a new repo.
 
-# Cumulocity Device Chart Widget Plugin [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/Cumulocity-IoT/cumulocity-device-chart-widget-plugin/releases/download/1.0.4/sag-ps-pkg-device-chart-1.0.3.zip)
+# Cumulocity Device Chart Widget Plugin [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/Cumulocity-IoT/cumulocity-device-chart-widget-plugin/releases/download/1.0.4/sag-ps-pkg-device-chart-1.0.4.zip)
 
 This Device Chart Widget is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. It displays the chart based on the device-specific inventory data.
 By Default the chart displays the count based on the input in the group by field of configuration. But if the input is provided in the value field of the widget configuration it gives the value sum of the provided field from device managed object.
