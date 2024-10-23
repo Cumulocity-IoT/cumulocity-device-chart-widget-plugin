@@ -93,6 +93,6 @@ One can also select the custom chart color and Border color to beautify the char
 
 ------------------------------
 
-This widget is provided as-is and without warranty or support. They do not constitute part of the Cumulocity AG product suite. Users are free to use, fork and modify them, subject to the license agreement. While Cumulocity GmbH welcomes contributions, we cannot guarantee to include every contribution in the master project.
+This widget is provided as-is and without warranty or support. They do not constitute part of the Cumulocity product suite. Users are free to use, fork and modify them, subject to the license agreement. While Cumulocity GmbH welcomes contributions, we cannot guarantee to include every contribution in the master project.
 _____________________
 For more information you can Ask a Question in the [TECH Community Forums](https://tech.forums.softwareag.com/tag/Cumulocity-IoT).
