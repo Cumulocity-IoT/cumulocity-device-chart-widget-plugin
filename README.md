@@ -1,3 +1,10 @@
+# Deprecation notice
+
+This plugin is not further developed and it might break with upcoming Cumulocity IoT releases.
+Use it at your own risk.
+
+The repository is archived but feel free to fork & adapt it to your needs in a new repo.
+
 # Cumulocity Device Chart Widget Plugin [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-device-chart-widget-plugin/releases/download/1.0.3/sag-ps-pkg-device-chart-1.0.3.zip)
 
 This Device Chart Widget is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. It displays the chart based on the device-specific inventory data.
